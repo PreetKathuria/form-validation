@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="fv.css">
+</head>
+<body>
+    
+    <main>
+
+        <div class="fv">
+
+            <h2>Sign-up</h2>
+
+            <div class="form">
+
+                <div class="inputs">
+                    <label>Full Name</label>
+                    <input value="" id="fullname" placeholder="enter your full name">
+                    <span id="nameproblem"></span>
+                </div>
+
+                <div class="inputs">
+                    <label>Email</label>
+                    <input value="" id="email" placeholder="enter your gmail id">
+                    <span id="emailproblem"></span>
+                </div>
+
+                <div class="inputs">
+                    <label>Passward</label>
+                    <input type="password" value="" id="passward" placeholder="passward of atleast 8 character">
+                    <span id="passwardproblem"></span>
+                </div>
+
+            </div>
+
+            <button class="createbutton">Create Account</button>
+
+            <p>Already have an account? login</p>
+
+        </div>
+
+    </main>
+
+    <script src="fv.js"></script>
+
+</body>
+</html>
